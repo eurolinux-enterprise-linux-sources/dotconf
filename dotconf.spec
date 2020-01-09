@@ -1,6 +1,6 @@
 Name:		dotconf
 Version:	1.3
-Release:	6%{?dist}
+Release:	8%{?dist}
 Summary:	Libraries to parse configuration files
 
 Group:		System Environment/Libraries
@@ -58,6 +58,12 @@ find %{buildroot} -type f -name "*.a" -o -name "*.la" | xargs rm -f
 %{_libdir}/pkgconfig/dotconf.pc
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.3-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-7
+- Mass rebuild 2013-12-27
+
 * Tue Jul 16 2013 Peter Robinson <pbrobinson@fedoraproject.org> 1.3-6
 - Fix multilib issues (thanks Rui Matos)
 
